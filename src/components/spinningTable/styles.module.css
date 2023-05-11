@@ -1,0 +1,23 @@
+.table {
+  height: 100vh;
+  width: 100%;
+  border: 5px solid #b1dd00;
+  overflow: hidden;
+  position: relative;
+}
+
+.tableInner {
+  display: block;
+  height: auto;
+  width: 100%;
+  position: absolute;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.tableRow {
+  background-color: rgba(0, 0, 0, 0.389);
+  width: 100%;
+  font-size: 16px;
+  padding: 10px;
+}
