@@ -14,7 +14,6 @@ const CowntDown = () => {
 
     if (count === 0) {
       clearInterval(countdown);
-      // Redirect to a specific route using React Router
       navigate(ROUTESENUM.loader);
     }
 
